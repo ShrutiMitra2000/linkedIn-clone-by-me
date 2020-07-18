@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* General CSS */
+.main-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.color-white {
+    color: #fff;
+}
+
+ul, li, nav {
+    display: inline-block;
+    height: 100%;
+}
+
+.middle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+section {
+    display: inline-block;
+}
+
+.make-inline-block {
+    display: inline-block;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+/* Header Starts */
+.head {
+    background-color: #1b3540;
+    height: 60px;
+    width: 100%;
+}
+
+.header-part {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.nav-bar-block{
+    display: inline-block;
+    width: 85px;
+    text-align: center;
+    height: 90%;
+}
+
+.navigation {
+    position: absolute;
+    right: 0;
+}
+
+.nav-bar-block:hover {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+}
+
+.nav-link i {
+    color: #ded7d7;
+    font-size: 35px;
+}
+
+.logo i {
+    font-size: 50px;
+    color: #fff;
+    margin-right: 25px;
+}
+
+.nav-link i:hover, .nav-link-text:hover {
+    color: #fff;
+}
+
+.nav-link-text {
+    color: #ded7d7;
+    display: block;
+    margin-top: 3px;
+}
+
+.search-box {
+    height: 45px;
+    vertical-align: top;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 280px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    background-color: #ddd;
+    font-size: 20px;
+}
+
+.search-bar::placeholder {
+    font-size: 20px;
+    background: url('../media/icons8-search-24\ \(1\).png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    color: #353333;
+    padding-top: 2px;
+}
+
+.suggestion-block {
+    border: none;
+}
+
+.me {
+    height: 30px;
+    width: 35px;
+    background: url('../media/icons8-user-48.png');
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-position: center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.me-text {
+    margin-left: 10px;
+
+}
+
+.me-block {
+    height: 96%;
+}
+
+.upgrade-account {
+    color: #e8d9aa;
+    font-size: 25px;
+}
+
+.left-border {
+    border-left: 1px solid #fff;
+}
+
+
+.relative {
+    position: relative;
+}
+
+.suggestion-part {
+    border: none;
+}
+/* Header Ends */
+
+/* Main CSS Starts */
+
+.main{
+    margin: 5% auto;
+}
+
+.left-section {
+    width: 23%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.width-block {
+    width: 100%;
+    border: 2px solid #9c8e8e;
+    margin: 2% auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.account-img {
+    background: url('../media/8217951939_d785f65c4c_b.jpg');
+    height: 100px;
+
+}
+
+/* User Info Left section CSS */
+
+.user-img {
+    height: 100px;
+    width: 100px;
+    border: 5px solid #383535;
+    background: #fff;
+    border-radius: 50%;
+    margin-bottom: -140px;
+}
+
+.user-name {
+    font-size: 40px;
+    margin-top: 65px;
+}
+
+.user-position, .status-text, .upgrade-box-text {
+    margin: 10px;
+    font-size: 15px;
+    color: #464444;
+}
+
+.user-info, .user-status, .page-info, .page-details, .recent-notifier, .post-reactions {
+    border-bottom: 1px solid #ddd;
+}
+
+
+.num-status {
+    color: #2487b1;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.seperator {
+    width: 80%;
+}
+
+.upgrade-box {
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.upgrade-box-text {
+    font-size: 15px;
+    margin: 6px;
+}
+
+a.free-upgrade {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.upgrade-pic {
+    height: 15px;
+    margin-right: 10px;
+}
+
+
+.alt-campus-img {
+    height: 65px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+
+.page-title-info {
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+}
+
+.page-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.followers {
+    margin:2px 0px 1px 0px;
+    margin-left: 0;
+}
+
+.page-options {
+    position: absolute;
+    right: 2%;
+    top: 20%;
+    color: #333;
+    font-size: 35px;
+}
+
+.notifications-block h1, .visitor-section h1 {
+    font-size: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.nums {
+    float: right;
+    color: #2179a7;
+    font-weight: bold;
+}
+
+/* Share block*/
+.share-block h1 {
+    font-size: 25px;
+    margin: 15px;
+}
+
+/* Middle sectionStarts */
+.middle-block {
+    width: 50%;
+    margin: 0 auto;
+    vertical-align: top;
+    padding: 0.5% 2% 2% 2%;
+}
+
+/* Writesection*/
+.write-post, .post{
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow : 1px 2px 12px 0px;
+}
+
+.write-post-area {
+    padding-left: 25px;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: none;
+    font-size: 18px;
+}
+
+.write-post-bt {
+    width: 150px;
+    height: 50px;
+    border-radius: 45px;
+    background-color: #fff;
+    border: 2px solid #333;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.write-post-btn i {
+    margin: 5px;
+}
+
+.post-bt{
+    height: 35px;
+    width: 70px;
+    margin: 10px;
+    margin-right: 15px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    float: right;
+}
+
+/* Post block */
+.lite {
+    color: #333;
+}
+
+.main-post {
+    font-family: 'Roboto', sans-serif;
+}
+
+.post {
+    margin-top: 2%;
+    border-radius: 0;
+}
+
+.notifier{
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.fa-ellipsis-h {
+    float: right;
+    margin-right: 15px;
+}
+
+.post-maker-img {
+    height: 75px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 15px;
+}
+
+.post-maker-details {
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px;
+}
+
+.post-maker-name {
+    font-weight: bold;
+}
+
+.post-maker-name span {
+    font-weight: 300;
+}
+
+.post-text p {
+    line-height: 36px;
+    word-spacing: 5px;
+}
+
+.post-reactions {
+    margin: 20px 0;
+    padding: 5px;
+}
+
+/* Reactions*/
+.give-reaction-block {
+    margin: 5px;
+}
+
